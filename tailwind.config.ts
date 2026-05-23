@@ -20,9 +20,9 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "sans-serif"],
-        heading: ["var(--font-roboto)", "Roboto", "sans-serif"],
-        display: ["var(--font-poppins)", "Poppins", "sans-serif"],
+        sans: ["system-ui", "sans-serif"],
+        heading: ["system-ui", "sans-serif"],
+        display: ["system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

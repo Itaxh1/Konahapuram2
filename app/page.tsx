@@ -51,7 +51,7 @@ const experiences = [
 
 const photos = [
   { src: "/photos/photo-1.png", alt: "Ashwin outdoors" },
-  { src: "/photos/photo-2.png", alt: "Ashwin portrait outdoors" },
+  { src: "/photos/photo-2.jpg", alt: "Ashwin portrait outdoors", imageClassName: "rotate-180" },
   { src: "/photos/photo-3.png", alt: "Ashwin landscape moment" },
 ]
 
@@ -292,7 +292,7 @@ export default function HomePage() {
                   alt={photo.alt}
                   fill
                   sizes="(min-width: 1024px) 180px, 33vw"
-                  className="object-cover opacity-95 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
+                  className={`object-cover opacity-95 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100 ${photo.imageClassName ?? ""}`}
                 />
               </div>
             ))}
