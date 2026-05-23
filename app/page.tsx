@@ -24,9 +24,9 @@ const themeOptions: Array<{
 const experiences = [
   {
     period: "2025 — Present",
-    role: "Co-Founder",
+    role: "Founding Engineer",
     company: "HiringBae",
-    description: "Building OZ — AI employees that handle end-to-end workflows. From integrations to onboarding to support, helping teams ship faster with intelligent automation.",
+    description: "Building OZ: AI employees that handle end-to-end workflows. From integrations to onboarding to support, helping teams ship faster with intelligent automation.",
     link: "#",
   },
   {
@@ -51,7 +51,7 @@ const experiences = [
 
 const photos = [
   { src: "/photos/photo-1.png", alt: "Ashwin outdoors" },
-  { src: "/photos/photo-2.png", alt: "Ashwin travel moment" },
+  { src: "/photos/photo-2.png", alt: "Ashwin portrait outdoors" },
   { src: "/photos/photo-3.png", alt: "Ashwin landscape moment" },
 ]
 
@@ -258,12 +258,20 @@ export default function HomePage() {
             </p>
 
             <p className="text-lg lg:text-xl leading-relaxed text-[#55554f] mt-6 dark:text-[#999]">
-              A lot of my work has come from simple questions: why does this take so long, why do people have to repeat the same thing, and why can&apos;t software remember enough to help better? That curiosity has taken me through university systems, agritech, healthcare, and now AI employees at{" "}
-              <span className="text-[#111] font-medium dark:text-white">HiringBae</span>.
+              I like building things from zero.
             </p>
 
             <p className="text-lg lg:text-xl leading-relaxed text-[#55554f] mt-6 dark:text-[#999]">
-              I care about building products that feel useful in real life — not just impressive in demos. Most days, I&apos;m either writing code, talking to users, or thinking about how to make AI more dependable for everyday work.
+              I enjoy the part where I do not know the answer yet: debugging, figuring things out, and staying with a problem until it starts to make sense.
+            </p>
+
+            <p className="text-lg lg:text-xl leading-relaxed text-[#55554f] mt-6 dark:text-[#999]">
+              I&apos;ve worked across university websites, agriculture, healthcare, and now I&apos;m working on{" "}
+              <span className="text-[#111] font-medium dark:text-white">OZ at HiringBae</span>.
+            </p>
+
+            <p className="text-lg lg:text-xl leading-relaxed text-[#55554f] mt-6 dark:text-[#999]">
+              Different spaces, same instinct: learn fast, build carefully, and make something people can rely on.
             </p>
           </motion.div>
 
