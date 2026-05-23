@@ -51,7 +51,7 @@ const experiences = [
 
 const photos = [
   { src: "/photos/photo-1.png", alt: "Ashwin outdoors" },
-  { src: "/photos/photo-2.jpg", alt: "Ashwin portrait outdoors", imageClassName: "rotate-180" },
+  { src: "/photos/photo-2.jpg", alt: "Ashwin portrait outdoors" },
   { src: "/photos/photo-3.png", alt: "Ashwin landscape moment" },
 ]
 
@@ -254,7 +254,7 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-lg lg:text-xl leading-relaxed text-[#55554f] dark:text-[#999]">
-              Hi, I&apos;m Ashwin. I&apos;m a builder and engineer from Chennai, now based in Phoenix.
+              Hi, I&apos;m <span className="text-[#111] font-medium dark:text-white">Ashwin</span> Kumar. I&apos;m a builder and engineer from Chennai, now based in Phoenix.
             </p>
 
             <p className="text-lg lg:text-xl leading-relaxed text-[#55554f] mt-6 dark:text-[#999]">
